@@ -22,5 +22,5 @@ jobs:
     - name: Push new index.json
       uses: mikeal/publish-to-github-action@master
       env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
           BRANCH_NAME: 'main'
